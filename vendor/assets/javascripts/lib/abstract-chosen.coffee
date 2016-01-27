@@ -290,9 +290,9 @@ class AbstractChosen
       return false if /Mobile/i.test(window.navigator.userAgent)
     return true
 
-  @default_multiple_text: "Select Some Options"
-  @default_single_text: "Select an Option"
-  @default_no_result_text: "No results match"
+  @default_multiple_text: I18n.t("select_some_options", {scope: "chosen"});
+  @default_single_text: I18n.t("select_an_option", {scope: "chosen"});
+  @default_no_result_text: I18n.t("no_results_match", {scope: "chosen"});
 
 
 window.AbstractChosen = AbstractChosen
