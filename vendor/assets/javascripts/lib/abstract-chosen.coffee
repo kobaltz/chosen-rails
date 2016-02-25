@@ -302,3 +302,4 @@ class AbstractChosen
   @default_single_text: "Select an Option"
   @default_no_result_text: "No results match"
 
+window.AbstractChosen = AbstractChosen

@@ -67,4 +67,4 @@ SelectParser.select_to_array = (select) ->
   parser.add_node( child ) for child in select.childNodes
   parser.parsed
 
-
+window.SelectParser = SelectParser
