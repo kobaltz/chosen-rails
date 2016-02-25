@@ -301,5 +301,3 @@ class AbstractChosen
   @default_multiple_text: I18n.t("select_some_options", {scope: "chosen"});
   @default_single_text: I18n.t("select_an_option", {scope: "chosen"});
   @default_no_result_text: I18n.t("no_results_match", {scope: "chosen"});
-
-window.AbstractChosen = AbstractChosen
